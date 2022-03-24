@@ -2,11 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Welcome! {page_title}</title>
+        <title>Welcome! {{page_title}}</title>
        
 <style>
-label {
-	display: block;
+
+#apply {
+	display: inline;
 	width: 60vw;
 	max-width: 300px;
 	margin: 0 auto;
@@ -15,25 +16,15 @@ label {
 	font-size: 1em;
 	line-height: 2.5em;
 	text-align: center;
-}
-
-label:hover {
-	background-color: cornflowerblue;
-}
-
-label:active {
-	background-color: mediumaquamarine;
-}
-
-input {
 	border: 0;
-    clip: rect(1px, 1px, 1px, 1px);
-    height: 1px; 
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+	color:#fff;
+}
+
+ 
+
+form {
+	
+  color:#fff;   
 }
 
 body {
@@ -53,11 +44,11 @@ body {
 
 
 
-        <form method="post" enctype="multipart/form-data">
+        <form method="post" enctype="multipart/form-data" action="/upload">
 
-<label for="apply"><input type="file" name="" id="applys" accept=".txt">Get files</label>
+ <input type="file" name="file" id="file_upload" accept=".txt" />
 
-<input type="button" name="submit" value="Submit" id="apply" />
+<button type="submit" name="submit" id="apply" > Upload </button>
 	
 </form> 
     </body>
