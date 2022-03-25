@@ -1,0 +1,61 @@
+PLEASE NOTE THAT THE URL WILL CHANGE WHEN THE APP GOES INTO PRODUCTION
+
+
+
+
+MARK ORDER STATUS AS ACCEPTED
+
+End point URL:
+
+http://cartmyway.plus27.tech/api/accept_order
+
+METHOD: POST
+
+Params: 
+api_token: p2lbgWkFrykA4QyUmpHihzmc5BNzIABqdjldnjdll
+order_id: as defined
+
+
+
+
+MARK ORDER STATUS AS PENDING
+
+End point URL:
+
+http://cartmyway.plus27.tech/api/pend_order
+
+METHOD: POST
+
+Params: 
+api_token: p2lbgWkFrykA4QyUmpHihzmc5BNzIABqdjldnjdll
+order_id: as defined
+
+
+
+
+MARK ORDER STATUS AS COMPLETE
+
+End point URL:
+
+http://cartmyway.plus27.tech/api/complete_order
+
+METHOD: POST
+
+Params: 
+api_token: p2lbgWkFrykA4QyUmpHihzmc5BNzIABqdjldnjdll
+order_id: as defined
+
+
+MARK ORDER STATUS AS CANCEL
+
+End point URL:
+
+http://cartmyway.plus27.tech/api/cancel_order
+
+METHOD: POST
+
+Params: 
+api_token: p2lbgWkFrykA4QyUmpHihzmc5BNzIABqdjldnjdll
+order_id: as defined
+
+
